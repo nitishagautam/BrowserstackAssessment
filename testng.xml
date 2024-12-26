@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BrowserStack Parallel Test Suite" parallel="tests" thread-count="5" generateHtmlReports="false">
+    <!-- Desktop: Windows Chrome -->
+    <test name="Windows Chrome">
+        <parameter name="os" value="Windows"/>
+        <parameter name="os_version" value="10"/>
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser_version" value="latest"/>
+        <parameter name="device" value=""/>
+        <parameter name="realMobile" value="false"/>
+        <classes>
+            <class name="com.example.BrowserStackTest"/>
+        </classes>
+    </test>
+
+    <!-- Desktop: macOS Safari -->
+    <test name="Mac Safari">
+        <parameter name="os" value="OS X"/>
+        <parameter name="os_version" value="Monterey"/>
+        <parameter name="browser" value="Safari"/>
+        <parameter name="browser_version" value="latest"/>
+        <parameter name="device" value=""/>
+        <parameter name="realMobile" value="false"/>
+        <classes>
+            <class name="com.example.BrowserStackTest"/>
+        </classes>
+    </test>
+
+    <!-- Mobile: Android -->
+    <test name="Mobile Android">
+        <parameter name="os" value="Android"/>
+        <parameter name="os_version" value="11.0"/>
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser_version" value="latest"/>
+        <parameter name="device" value="Samsung Galaxy S22"/>
+        <parameter name="realMobile" value="true"/>
+        <classes>
+            <class name="com.example.BrowserStackTest"/>
+        </classes>
+    </test>
+
+    <!-- Mobile: iPhone -->
+    <test name="Mobile iPhone">
+        <parameter name="os" value="iOS"/>
+        <parameter name="os_version" value="16.0"/>
+        <parameter name="browser" value="Safari"/>
+        <parameter name="browser_version" value="latest"/>
+        <parameter name="device" value="iPhone 13 Pro"/>
+        <parameter name="realMobile" value="true"/>
+        <classes>
+            <class name="com.example.BrowserStackTest"/>
+        </classes>
+    </test>
+
+    <!-- Desktop: Windows Firefox -->
+    <test name="Windows Firefox">
+        <parameter name="os" value="Windows"/>
+        <parameter name="os_version" value="10"/>
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="browser_version" value="latest"/>
+        <parameter name="device" value=""/>
+        <parameter name="realMobile" value="false"/>
+        <classes>
+            <class name="com.example.BrowserStackTest"/>
+        </classes>
+    </test>
+</suite>

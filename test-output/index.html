@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-BrowserStack_Parallel_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">BrowserStack Parallel Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-BrowserStack_Parallel_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\gauta\eclipse-workspace\ElPaisScraper\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-BrowserStack_Parallel_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-BrowserStack_Parallel_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-BrowserStack_Parallel_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-BrowserStack_Parallel_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-BrowserStack_Parallel_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-BrowserStack_Parallel_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BrowserStack_Parallel_Test_Suite" class="hide-methods failed suite-BrowserStack_Parallel_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-BrowserStack_Parallel_Test_Suite -->
+                      <a href="#" panel-name="suite-BrowserStack_Parallel_Test_Suite" class="show-methods failed suite-BrowserStack_Parallel_Test_Suite"> (show)</a> <!-- show-methods failed suite-BrowserStack_Parallel_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-BrowserStack_Parallel_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BrowserStack_Parallel_Test_Suite" title="com.example.BrowserStackTest" class="method navigator-link" hash-for-method="test(iOS, 16.0, Safari, latest, iPhone 13 Pro, true)">test(iOS, 16.0, Safari, latest, iPhone 13 Pro, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BrowserStack_Parallel_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BrowserStack_Parallel_Test_Suite" class="hide-methods passed suite-BrowserStack_Parallel_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-BrowserStack_Parallel_Test_Suite -->
+                      <a href="#" panel-name="suite-BrowserStack_Parallel_Test_Suite" class="show-methods passed suite-BrowserStack_Parallel_Test_Suite"> (show)</a> <!-- show-methods passed suite-BrowserStack_Parallel_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-BrowserStack_Parallel_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BrowserStack_Parallel_Test_Suite" title="com.example.BrowserStackTest" class="method navigator-link" hash-for-method="test(OS X, Monterey, Safari, latest, , false)">test(OS X, Monterey, Safari, latest, , false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BrowserStack_Parallel_Test_Suite" title="com.example.BrowserStackTest" class="method navigator-link" hash-for-method="test(Android, 11.0, Chrome, latest, Samsung Galaxy S22, true)">test(Android, 11.0, Chrome, latest, Samsung Galaxy S22, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BrowserStack_Parallel_Test_Suite" title="com.example.BrowserStackTest" class="method navigator-link" hash-for-method="test(Windows, 10, Chrome, latest, , false)">test(Windows, 10, Chrome, latest, , false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BrowserStack_Parallel_Test_Suite" title="com.example.BrowserStackTest" class="method navigator-link" hash-for-method="test(Windows, 10, Firefox, latest, , false)">test(Windows, 10, Firefox, latest, , false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BrowserStack_Parallel_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BrowserStack_Parallel_Test_Suite" class="panel BrowserStack_Parallel_Test_Suite">
+          <div class="suite-BrowserStack_Parallel_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.example.BrowserStackTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(iOS, 16.0, Safari, latest, iPhone 13 Pro, true)">
+                  </a> <!-- test(iOS, 16.0, Safari, latest, iPhone 13 Pro, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(iOS, 16.0, Safari, latest, iPhone 13 Pro, true)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: Opinión (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: safari, browserVersion: latest, browserstack.isTargetBased: true, databaseEnabled: false, deviceName: iPhone 13 Pro, deviceOrientation: PORTRAIT, javascriptEnabled: true, keychainPassword: [REDACTED VALUE], keychainPath: [REDACTED VALUE], locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 0, noReset: true, orientation: PORTRAIT, platform: MAC, platformName: IOS, realMobile: true, safariIgnoreFraudWarning: true, takesScreenshot: true, udid: 00008110-0001101634F8801E, useXctestrunFile: true, webStorageEnabled: false}
+Session ID: a72dada485ea7fcf1128817f7075c0f033b0c73a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.example.ElPaisScraper.scrapeOpinionSection(ElPaisScraper.java:93)
+	at com.example.BrowserStackTest.test(BrowserStackTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BrowserStack_Parallel_Test_Suite-class-failed -->
+          <div class="suite-BrowserStack_Parallel_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.BrowserStackTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(OS X, Monterey, Safari, latest, , false)">
+                  </a> <!-- test(OS X, Monterey, Safari, latest, , false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(OS X, Monterey, Safari, latest, , false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Android, 11.0, Chrome, latest, Samsung Galaxy S22, true)">
+                  </a> <!-- test(Android, 11.0, Chrome, latest, Samsung Galaxy S22, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Android, 11.0, Chrome, latest, Samsung Galaxy S22, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Windows, 10, Chrome, latest, , false)">
+                  </a> <!-- test(Windows, 10, Chrome, latest, , false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Windows, 10, Chrome, latest, , false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Windows, 10, Firefox, latest, , false)">
+                  </a> <!-- test(Windows, 10, Firefox, latest, , false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Windows, 10, Firefox, latest, , false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BrowserStack_Parallel_Test_Suite-class-passed -->
+        </div> <!-- panel BrowserStack_Parallel_Test_Suite -->
+        <div panel-name="test-xml-BrowserStack_Parallel_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\gauta\eclipse-workspace\ElPaisScraper\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;BrowserStack Parallel Test Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Windows Chrome&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;realMobile&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;os_version&quot; value=&quot;10&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;browser_version&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.example.BrowserStackTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Windows Chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Mac Safari&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+    &lt;parameter name=&quot;realMobile&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;os_version&quot; value=&quot;Monterey&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Safari&quot;/&gt;
+    &lt;parameter name=&quot;browser_version&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.example.BrowserStackTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Mac Safari --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Mobile Android&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Android&quot;/&gt;
+    &lt;parameter name=&quot;realMobile&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;os_version&quot; value=&quot;11.0&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;browser_version&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;Samsung Galaxy S22&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.example.BrowserStackTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Mobile Android --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Mobile iPhone&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;iOS&quot;/&gt;
+    &lt;parameter name=&quot;realMobile&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;os_version&quot; value=&quot;16.0&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Safari&quot;/&gt;
+    &lt;parameter name=&quot;browser_version&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;iPhone 13 Pro&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.example.BrowserStackTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Mobile iPhone --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Windows Firefox&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;realMobile&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;os_version&quot; value=&quot;10&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;browser_version&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.example.BrowserStackTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Windows Firefox --&gt;
+&lt;/suite&gt; &lt;!-- BrowserStack Parallel Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BrowserStack_Parallel_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BrowserStack Parallel Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Windows Chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Mac Safari (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Mobile Android (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Mobile iPhone (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Windows Firefox (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BrowserStack_Parallel_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BrowserStack Parallel Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BrowserStack_Parallel_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BrowserStack Parallel Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BrowserStack_Parallel_Test_Suite');
+function tableData_BrowserStack_Parallel_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'com.example.BrowserStackTest')
+data.setCell(0, 3, 80621);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'com.example.BrowserStackTest')
+data.setCell(1, 3, 49963);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test')
+data.setCell(2, 2, 'com.example.BrowserStackTest')
+data.setCell(2, 3, 39133);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test')
+data.setCell(3, 2, 'com.example.BrowserStackTest')
+data.setCell(3, 3, 39039);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test')
+data.setCell(4, 2, 'com.example.BrowserStackTest')
+data.setCell(4, 3, 30650);
+window.suiteTableData['BrowserStack_Parallel_Test_Suite']= { tableData: data, tableDiv: 'times-div-BrowserStack_Parallel_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-BrowserStack_Parallel_Test_Suite">
+              </div> <!-- times-div-BrowserStack_Parallel_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BrowserStack_Parallel_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BrowserStack Parallel Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BrowserStack_Parallel_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BrowserStack_Parallel_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.BrowserStackTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test(Windows, 10, Chrome, latest, , false)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(OS X, Monterey, Safari, latest, , false)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(Android, 11.0, Chrome, latest, Samsung Galaxy S22, true)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(iOS, 16.0, Safari, latest, iPhone 13 Pro, true)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(Windows, 10, Firefox, latest, , false)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

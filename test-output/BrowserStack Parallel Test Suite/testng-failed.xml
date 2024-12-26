@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [BrowserStack Parallel Test Suite]">
+  <test thread-count="5" parallel="tests" name="Mobile iPhone(failed)">
+    <parameter name="os" value="iOS"/>
+    <parameter name="realMobile" value="true"/>
+    <parameter name="os_version" value="16.0"/>
+    <parameter name="browser" value="Safari"/>
+    <parameter name="browser_version" value="latest"/>
+    <parameter name="device" value="iPhone 13 Pro"/>
+    <classes>
+      <class name="com.example.BrowserStackTest">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.example.BrowserStackTest -->
+    </classes>
+  </test> <!-- Mobile iPhone(failed) -->
+</suite> <!-- Failed suite [BrowserStack Parallel Test Suite] -->
